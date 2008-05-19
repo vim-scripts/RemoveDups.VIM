@@ -1,0 +1,9 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2243
+
+After sorting a file (eg. with the very useful vissort.vim) you can mark an area (line- or blockwise) an remove any lines containing duplicate values within this mark, so making anything in the marked area uinique.
+
+Ths most common use is:
+mark a block
+:Sort it
+Remark the same block using gv
+:call RemoveDups()
